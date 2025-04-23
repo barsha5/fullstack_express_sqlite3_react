@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 // Enable CORS for all routes
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'http://ec2-3-148-113-251.us-east-2.compute.amazonaws.com:3000' }));
 
 let sql;
 
