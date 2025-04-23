@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'http://localhost:4000/api/students';
+const API_URL = 'http://http://ec2-3-148-113-251.us-east-2.compute.amazonaws.com/api/students';
 
 function App() {
   const [students, setStudents] = useState([]);
